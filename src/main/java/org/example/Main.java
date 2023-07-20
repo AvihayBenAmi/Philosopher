@@ -3,7 +3,7 @@ package org.example;
 class Philosopher extends Thread {
     private static int eatingCount = 0;
     private static int waitingCount = 0;
-    private static final Object lock = new Object();
+    private static final Object lock = new Object();//
 
     private int id;
     private Object leftFork;

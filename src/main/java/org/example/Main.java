@@ -27,7 +27,7 @@ class Philosopher extends Thread {
                 System.out.println("Philosopher " + id + " is eating. (Eating: " + eatingCount + ", Waiting: " + waitingCount + ")");
             }
 
-            Thread.sleep(1000);
+            Thread.sleep(500);
 
             synchronized (lock) {
                 eatingCount--;
